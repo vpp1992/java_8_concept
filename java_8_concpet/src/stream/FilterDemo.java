@@ -10,8 +10,9 @@ public class FilterDemo {
         list.add(15);
         list.add(25);
         list.add(52);
-        Stream<Integer> integerStream = list.stream().filter(i -> i % 2 == 0);
-        integerStream.forEach(x-> System.out.println(x));
+      /*  Stream<Integer> integerStream = list.stream().filter(i -> i % 2 == 0);
+        integerStream.forEach(x-> System.out.println(x));*/
+        list.stream().filter(i->i%2==0).forEach(x-> System.out.println(x));
 
     }
 }
