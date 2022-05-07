@@ -1,4 +1,6 @@
-package funinterface;
+package defaultmethodexample;
+
+import funinterface.FunctionalInterfaceDemo;
 
 public class MethodRefExample {
     public static void main(String[] args) {
